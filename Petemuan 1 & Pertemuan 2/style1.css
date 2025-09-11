@@ -1,0 +1,62 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, blueviolet, lightpink);
+    line-height: normal;
+    padding: 50px 0;
+}
+
+.continer-satu{
+    width: 100px;
+    margin: auto;
+    background-color: pink;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+
+.kolom-utama{
+    flex: 3;
+    padding: 10px;
+    color: lightblue;
+}
+
+.kolom-utama img{
+    display: block;
+    margin: 20px auto;
+    max-width: 50%;
+    border-radius: 8px;
+    background-color: aqua;
+}
+
+.sidebar-satu, .sidebar-dua {
+    flex: 1;
+    padding: 10px;
+    background-color: #e2e2e2;
+    border-radius: 8px;
+}
+
+.sidebar-satu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-satu li {
+    margin: 8px 0;
+}
+
+.sidebar-satu a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: 0.3s;
+}
+
+.sidebar-satu a:hover {
+    color: #0056b3;
+}
